@@ -47,11 +47,11 @@ double heightMeters = height / 100.0;
 double IMT = weight / (heightMeters * heightMeters);
 
 string Answer =  Console.ReadLine();
-if (Answer == "Да")
+if (Answer == "Да" || Answer == "да" || Answer == "ДА")
 {
     Console.WriteLine("Пизда ахахахахах. Вот твои результаты. Твой ИМТ = " + IMT);
 }
-else if (Answer == "Нет")
+else if (Answer == "Нет" || Answer == "нет" || Answer == "НЕТ")
 {
     Console.WriteLine("Говна пакет. До видзеня.");
 }
